@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		8F8D5C6D168E0B8800A6033B /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8D5C6C168E0B8800A6033B /* detailViewController.m */; };
-		8F8D5C6F168E2D9000A6033B /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F8D5C6E168E2D9000A6033B /* 57x57.png */; };
-		8F8D5C71168E2D9400A6033B /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F8D5C70168E2D9400A6033B /* 114x114.png */; };
 		8F8D5C74168E334700A6033B /* webViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8D5C73168E334700A6033B /* webViewController.m */; };
+		8FD202AE1695F3AB006F41DF /* Logo.psd in Resources */ = {isa = PBXBuildFile; fileRef = 8FD202AA1695F3AB006F41DF /* Logo.psd */; };
+		8FD202B11695F3AB006F41DF /* Logo(1024x1024).png in Resources */ = {isa = PBXBuildFile; fileRef = 8FD202AD1695F3AB006F41DF /* Logo(1024x1024).png */; };
+		8FD202B31695F429006F41DF /* Logo(57x57).png in Resources */ = {isa = PBXBuildFile; fileRef = 8FD202B21695F429006F41DF /* Logo(57x57).png */; };
+		8FD202B51695F42C006F41DF /* Logo(114x114).png in Resources */ = {isa = PBXBuildFile; fileRef = 8FD202B41695F42C006F41DF /* Logo(114x114).png */; };
 		8FE96E8C168DDA1C0067C64A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE96E8B168DDA1C0067C64A /* UIKit.framework */; };
 		8FE96E8E168DDA1C0067C64A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE96E8D168DDA1C0067C64A /* Foundation.framework */; };
 		8FE96E90168DDA1C0067C64A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE96E8F168DDA1C0067C64A /* CoreGraphics.framework */; };
@@ -27,10 +29,12 @@
 /* Begin PBXFileReference section */
 		8F8D5C6B168E0B8800A6033B /* detailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
 		8F8D5C6C168E0B8800A6033B /* detailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
-		8F8D5C6E168E2D9000A6033B /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 57x57.png; path = ../57x57.png; sourceTree = "<group>"; };
-		8F8D5C70168E2D9400A6033B /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 114x114.png; path = ../114x114.png; sourceTree = "<group>"; };
 		8F8D5C72168E334700A6033B /* webViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = webViewController.h; path = ../webViewController.h; sourceTree = "<group>"; };
 		8F8D5C73168E334700A6033B /* webViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = webViewController.m; path = ../webViewController.m; sourceTree = "<group>"; };
+		8FD202AA1695F3AB006F41DF /* Logo.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Logo.psd; sourceTree = "<group>"; };
+		8FD202AD1695F3AB006F41DF /* Logo(1024x1024).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo(1024x1024).png"; sourceTree = "<group>"; };
+		8FD202B21695F429006F41DF /* Logo(57x57).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo(57x57).png"; path = "../Logo(57x57).png"; sourceTree = "<group>"; };
+		8FD202B41695F42C006F41DF /* Logo(114x114).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo(114x114).png"; path = "../Logo(114x114).png"; sourceTree = "<group>"; };
 		8FE96E87168DDA1C0067C64A /* DBLP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBLP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE96E8B168DDA1C0067C64A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8FE96E8D168DDA1C0067C64A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -117,8 +121,10 @@
 				8FE96E9D168DDA1C0067C64A /* Default.png */,
 				8FE96E9F168DDA1C0067C64A /* Default@2x.png */,
 				8FE96EA1168DDA1C0067C64A /* Default-568h@2x.png */,
-				8F8D5C70168E2D9400A6033B /* 114x114.png */,
-				8F8D5C6E168E2D9000A6033B /* 57x57.png */,
+				8FD202AA1695F3AB006F41DF /* Logo.psd */,
+				8FD202AD1695F3AB006F41DF /* Logo(1024x1024).png */,
+				8FD202B41695F42C006F41DF /* Logo(114x114).png */,
+				8FD202B21695F429006F41DF /* Logo(57x57).png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -180,8 +186,10 @@
 				8FE96EA0168DDA1C0067C64A /* Default@2x.png in Resources */,
 				8FE96EA2168DDA1C0067C64A /* Default-568h@2x.png in Resources */,
 				8FE96EA5168DDA1C0067C64A /* MainStoryboard.storyboard in Resources */,
-				8F8D5C6F168E2D9000A6033B /* 57x57.png in Resources */,
-				8F8D5C71168E2D9400A6033B /* 114x114.png in Resources */,
+				8FD202AE1695F3AB006F41DF /* Logo.psd in Resources */,
+				8FD202B11695F3AB006F41DF /* Logo(1024x1024).png in Resources */,
+				8FD202B31695F429006F41DF /* Logo(57x57).png in Resources */,
+				8FD202B51695F42C006F41DF /* Logo(114x114).png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +283,13 @@
 		8FE96EAC168DDA1C0067C64A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DBLP/DBLP-Prefix.pch";
 				INFOPLIST_FILE = "DBLP/DBLP-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -287,11 +297,13 @@
 		8FE96EAD168DDA1C0067C64A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DBLP/DBLP-Prefix.pch";
 				INFOPLIST_FILE = "DBLP/DBLP-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
